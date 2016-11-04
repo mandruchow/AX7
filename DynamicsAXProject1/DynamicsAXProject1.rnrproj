@@ -24,6 +24,13 @@
     <Name>DynamicsAXProject1</Name>
     <RootNamespace>DynamicsAXProject1</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="AxClass\GitCheck">
+      <SubType>Content</SubType>
+      <Name>GitCheck</Name>
+      <Link>GitCheck</Link>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Dynamics\AX\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
 </Project>
